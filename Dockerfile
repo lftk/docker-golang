@@ -1,4 +1,4 @@
-FROM golang:1.16.1
+FROM golang:1.16.2
 
 RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b /bin v1.39.0
 
